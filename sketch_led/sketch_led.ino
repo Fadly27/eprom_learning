@@ -6,14 +6,14 @@ for(int i=1; i<=5; i++){
   
   if(i<=5){
     digitalWrite(led,HIGH);
-    delay(100);
+    delay(1000);
     digitalWrite(led,LOW);
-    delay(100);
+    delay(1000);
     }
 }
 
-//digitalWrite(led,HIGH);
-//delay(1000);
+digitalWrite(led,HIGH);
+delay(1000);
 //digitalWrite(led,LOW);
 //delay(1000);
 //digitalWrite(led,HIGH);
